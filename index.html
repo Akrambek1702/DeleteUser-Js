@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../Bootstrap 5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../fontawesome-free-5.15.2-web/css/all.min.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+     <div class="container">
+         <div class="row py-3">
+             <div class="col-4">
+             <label for="Name">Name</label><br>
+             <input type="text" class="w-100" placeholder="Enter Name..." id="name">
+             </div>
+         <div class="col-3">
+             <label for="age">Age</label><br>
+             <input type="number" class="w-100" placeholder="Enter Age..." id="age">
+         </div>
+         <div class="col-4">
+             <label for="job">Job</label><br>
+             <input type="text" class="w-100" placeholder="Enter Job..." id="job">
+         </div>
+         <div class="col-1">
+             <button class="btn btn-info">+ User</button>
+         </div>
+         </div>
+         <div class="row">
+             <div class="col-8 offset-2">
+                 <table class="table">
+                     <thead>
+                         <tr>
+                         <th>Name</th>
+                         <th>Age</th>
+                         <th>Job</th>
+                         <th>Action</th>
+                         </tr>
+                     </thead>
+                     <tbody id="tb">
+
+                     </tbody>
+                 </table>
+             </div>
+         </div>
+     </div>
+</body>
+</html>
